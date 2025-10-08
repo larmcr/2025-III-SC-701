@@ -1,0 +1,35 @@
+@{
+    ViewData["Title"] = "My List";
+}
+
+@{
+  var myModel = (List<int>)Model;
+}
+
+@{
+  int Square(int n)
+  {
+    // return n * n;
+    return (int)Math.Pow(n, 2);
+  }
+}
+
+<div class="text-center">
+    <h1>@ViewData["Title"]</h1>
+
+    @foreach(var num in myModel)
+    {
+      @if (num % 2 == 0)
+      {
+        <p>Par: @num | <span>Square: @Square(num) </span></p>
+      }
+      else
+      {
+        <p>Impar: @num | <span>Square: @Square(num) </span></p>
+      }
+    }
+</div>
+
+<div>
+  <partial name="_MyPartialView"></partial>
+</div>

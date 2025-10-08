@@ -1,0 +1,41 @@
+@model MyProduct
+
+@if (@Model == null)
+{
+  <form asp-action="MyForm">
+    <div>
+      <label>Id:</label>
+      <input asp-for="Id" />
+      <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+    <div>
+      <label>Name:</label>
+      <input asp-for="Name" />
+      <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div>
+      <label>Price:</label>
+      <input asp-for="Price" />
+      <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div>
+      <label>Tax:</label>
+      <input asp-for="Tax" />
+      <span asp-validation-for="Tax" class="text-danger"></span>
+    </div>
+    <button type="submit">Calculate</button>
+  </form>
+}
+else
+{
+  var amount = Model.Price * Model.Tax / 100;
+  var total = Model.Price + amount;
+  <div>
+    <p>Id: @Model.Id</p>
+    <p>Name: @Model.Name</p>
+    <p>Price: @Model.Price</p>
+    <p>Tax percentaje: @Model.Tax %</p>
+    <p>Tax amount: @amount</p>
+    <p>Total: @total</p>
+  </div>
+}

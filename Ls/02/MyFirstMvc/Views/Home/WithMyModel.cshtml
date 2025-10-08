@@ -1,0 +1,14 @@
+@model MyModel
+
+@{
+    ViewData["Title"] = "With My Model";
+}
+<h1>@ViewData["Title"]</h1>
+
+<h2>@Model.Id</h2>
+
+<h3>@Model.Name</h3>
+
+<h4>@Model.NoBindear</h4>
+
+<div asp-validation-summary="All" class="text-danger"></div>
