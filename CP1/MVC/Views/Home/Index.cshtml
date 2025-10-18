@@ -1,0 +1,33 @@
+﻿@model TheModel
+
+<div>
+    <form asp-action="Index">
+        <label asp-for="Phrase">Phrase:</label>
+        <input asp-for="Phrase" type="text" />
+        <small><span asp-validation-for="Phrase"></span></small>
+        <br />
+        <input type="submit" value="Count" />
+    </form>
+</div>
+
+<div>
+@{
+    if (Model != null)
+    {
+        if (ViewBag.Valid)
+        {
+            <div><b>Counts:</b></div>
+            <ul>
+                @foreach(var count in Model.Counts!.OrderBy(c => c.Value).Reverse()) {
+                    <li>'@count.Key': @count.Value</li>
+                }
+            </ul>
+            <div><b>Lower case</b>: @Model.Lower</div>
+            <div><b>Upper case</b>: @Model.Upper</div>
+        }
+        else {
+            <span>Check errors!</span>
+        }
+    }
+}
+</div>
