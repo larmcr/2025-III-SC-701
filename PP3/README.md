@@ -319,4 +319,4 @@ La siguiente tabla muestra los rubros a evaluar, siempre y cuando el proyecto co
 | **F** | Documentación <sup>1</sup> |   5    |
 |       | **Total**                  | **20** |
 
-1. Para el rubro de **Documentación**, se rebajará un punto por cada error ortográfico. Así mismo, si el archivo no es renderizado correctamente (ya que debe ser escrito usando la sintaxis del formato **Markdown**), se evaluará con cero puntos.
+1. Para el rubro de **Documentación**, se rebajará un punto por cada error ortográfico. Así mismo, si el archivo no es "renderizado" correctamente (ya que debe ser escrito usando la sintaxis del formato **Markdown**), se evaluará con cero puntos.
