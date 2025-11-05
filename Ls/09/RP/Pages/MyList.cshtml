@@ -1,0 +1,12 @@
+﻿@page
+
+@model RP.Pages.MyListModel
+
+<h1>My List</h1>
+
+<ul>
+    @foreach (var name in Model.TheList!)
+    {
+        <li>@name</li>
+    }
+</ul>

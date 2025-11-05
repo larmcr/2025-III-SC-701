@@ -1,0 +1,14 @@
+@{
+    ViewBag.Title = "Cart Page";
+}
+
+<div>
+    <h1>Cart</h1>
+    <h3>@Model.DateAndTime</h3>
+    @foreach (ProductModel product in Model.Products)
+    {
+        <p>
+            @await Html.PartialAsync("_Product", product)
+        </p>
+    }
+</div>

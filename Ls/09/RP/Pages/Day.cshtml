@@ -1,0 +1,16 @@
+@page
+
+@functions {
+    public string? DayName { get; set; }
+
+    public void OnGet()
+    {
+        ViewBag.Title = "Day Razor Page";
+        DayName = DateTime.Now.ToString("dddd");
+    }
+}
+
+<h1>@ViewBag.Title</h1>
+<h3>It's @DayName</h3>
+<h3>It's @Model.DayName</h3>
+<h3>It's @this.DayName</h3>
