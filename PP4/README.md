@@ -193,7 +193,7 @@ Lo siguiente es un ejemplo de cómo se podrían ver las tablas de la base de dat
 
 Cuando se ejecuta el programa (de Consola), lo primero que debe hacer es verificar si la base de datos tiene la información guardada. De no ser así (es decir, la primera vez que se ejecuta), entonces se debe llenar la base de datos con la información del archivo CSV, tomando en cuenta lo que se indicó anteriormente.
 
-Se puede suponer que la base de datos fue creada con anterioridad, es decir, se debe verificar que la base de datos está vacía (sin información), no que el archivo de la base datos (`books.db`) exista. Además, el llenado de la base de datos debería efectuarse una sola vez. Por ejemplo, cuando se ejecute por primera vez la aplicación de Consola, se debe indicar que la base de datos está vacía y, por lo tanto, se debe llenar con la información correspondiente (los mensajes son solo de referencia):
+Se puede suponer que la base de datos fue creada con anterioridad, es decir, se debe verificar que la base de datos está vacía (sin información), no que el archivo de la base de datos (`books.db`) exista. Además, el llenado de la base de datos debería efectuarse una sola vez. Por ejemplo, cuando se ejecute por primera vez la aplicación de Consola, se debe indicar que la base de datos está vacía y, por lo tanto, se debe llenar con la información correspondiente (los mensajes son solo de referencia):
 
 ```bash
 $ dotnet run
