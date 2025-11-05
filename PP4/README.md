@@ -209,7 +209,7 @@ Procesando... Listo.
 
 Cuando el programa (de Consola) se ejecuta de nuevo (porque la base de datos ya fue llenada con anterioridad), se debe leer la información de la base de datos y generar en la carpeta `data` varios archivos TSV, de la siguiente forma:
 
-- El nombre del archivo será la primera letra del nombre completo del autor (el primer caracter de `AuthorName`, el cual es usualmente de su apellido) con la extensión del archivo correspondiente (`.tsv`). Por ejemplo: `./data/A.tsv`.
+- El nombre del archivo será la primera letra del nombre completo del autor (el primer carácter de `AuthorName`, el cual es usualmente de su apellido) con la extensión del archivo correspondiente (`.tsv`). Por ejemplo: `./data/A.tsv`.
 
 - Cada archivo tendrá tres columnas, cuyo encabezado indicará lo siguiente:
 
@@ -282,7 +282,7 @@ Esta es una tarea individual, por lo que en su respectivo repositorio de **Git**
 
   - Las respuestas a las siguientes preguntas:
     - ¿Cómo cree que resultaría el uso de la estrategia de _Code First_ para crear y actualizar una base de datos de tipo NoSQL (como por ejemplo **MongoDB**)? ¿Y con _Database First_? ¿Cree que habría complicaciones con las _Foreign Keys_?
-    - ¿Cuál caracter, además de la coma (`,`) y el _Tab_ (`\t`), se podría usar para separar valores en un archivo de texto con el objetivo de ser interpretado como una tabla (matriz)? ¿Qué extensión le pondría y por qué? Por ejemplo: _Pipe_ (`|`) con extensión `.pipe`.
+    - ¿Cuál carácter, además de la coma (`,`) y el _Tab_ (`\t`), se podría usar para separar valores en un archivo de texto con el objetivo de ser interpretado como una tabla (matriz)? ¿Qué extensión le pondría y por qué? Por ejemplo: _Pipe_ (`|`) con extensión `.pipe`.
 
 Ejemplo de estructura:
 

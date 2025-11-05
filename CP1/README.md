@@ -168,7 +168,7 @@ Implemente el mismo algoritmo de modo iterativo, es decir, utilizando bucles (`d
 
 Esta aplicación web contiene una sola página (posee un solo _Controller_ con un par de _Actions_, un _View_ y un solo _Model_). Dentro de dicha página hay un formulario que incluye un campo de texto y un botón.
 
-En el campo de texto se debe agregar una frase cualquiera y, al darle clic al botón, desplegará (en la misma página) la cuenta de cada caracter en orden descendente de acuerdo a su cuenta, así como las versiones en solo mayúscula y solo minúscula de las frases sin caracteres de espacio. Por ejemplo:
+En el campo de texto se debe agregar una frase cualquiera y, al darle clic al botón, desplegará (en la misma página) la cuenta de cada carácter en orden descendente de acuerdo a su cuenta, así como las versiones en solo mayúscula y solo minúscula de las frases sin caracteres de espacio. Por ejemplo:
 
 ```
 Phrase: Hello World

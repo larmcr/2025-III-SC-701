@@ -57,7 +57,7 @@ Una vez que el usuario cliquea el botón, deben ejecutarse estos tres pasos en e
 
 Al ser cadenas de caracteres (_Strings_) que representan números binarios, cada uno (`a` y `b`) debe cumplir con los siguientes requisitos:
 
-- Solo puede contener los caracteres `0` y `1`, por lo que cualquier otro caracter lo invalida.
+- Solo puede contener los caracteres `0` y `1`, por lo que cualquier otro carácter lo invalida.
 
 - Su longitud:
 
@@ -82,7 +82,7 @@ Ejemplos:
   - `0` (longitud no es múltipo de 2)
   - `000` (longitud no es múltipo de 2)
   - `101010101` (longitud mayor que 8)
-  - `1F100000` (caracter no válido)
+  - `1F100000` (carácter no válido)
 
 <br />
 
@@ -148,7 +148,7 @@ Ejemplo:
 
 - Como parte del modelo (no necesariamente en la misma clase), se deben mantener todos los valores binarios de todos los ítemes, incluyendo los resultados de las operaciones. Estos deben ser siempre de tipo _String_.
 
-- Las operaciones binarias (**AND**, **OR**, **XOR**) deben realizarse con métodos propios sobre los _Strings_; es decir, se debe iterar sobre cada caracter y hacer las comparaciones correspondientes. Para las demás operaciones (aritméticas y cambio de bases), se puede utilizar cualquier estrategia, ya sea con métodos propios o los proveídos por `.NET` (como por ejemplo la clase [**_Convert_**](https://learn.microsoft.com/en-us/dotnet/api/system.convert?view=net-8.0)), además de que es posible efectuarlas en la "capa" que considere oportuna.
+- Las operaciones binarias (**AND**, **OR**, **XOR**) deben realizarse con métodos propios sobre los _Strings_; es decir, se debe iterar sobre cada carácter y hacer las comparaciones correspondientes. Para las demás operaciones (aritméticas y cambio de bases), se puede utilizar cualquier estrategia, ya sea con métodos propios o los proveídos por `.NET` (como por ejemplo la clase [**_Convert_**](https://learn.microsoft.com/en-us/dotnet/api/system.convert?view=net-8.0)), además de que es posible efectuarlas en la "capa" que considere oportuna.
 
 - Se puede utilizar cualquier _Framework_ de estilos (CSS), o bien, puede utilizar sus propios. Así mismo, puede utilizar cualquier _Library_ de JavaScript, tal como [**_JQuery_**](https://jquery.com).
 
