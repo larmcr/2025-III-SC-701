@@ -1,0 +1,22 @@
+﻿@using MVC.Interfaces
+
+@* @inject MVC.Interfaces.IRandom random *@
+
+@inject IKeyedServiceProvider provider
+
+@{
+    var random = provider.GetRequiredKeyedService<IRandom>("Twenty");
+}
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-left">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <p>Random: @random.GetRandom()</p>
+
+    <p>Random from ViewData: @ViewData["Random"]</p>
+</div>
