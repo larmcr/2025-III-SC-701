@@ -306,7 +306,7 @@ La siguiente tabla muestra los rubros a evaluar, siempre y cuando el proyecto co
 | **B** | Crear la base de datos relacional |   3    |
 | **C** | Cargar el archivo CSV provisto    |   3    |
 | **D** | Guardar los archivos TSV          |   3    |
-| **G** | Documentación <sup>1</sup>        |   5    |
+| **E** | Documentación <sup>1</sup>        |   5    |
 |       | **Total**                         | **15** |
 
 Para el rubro de **Documentación**, se rebajará un punto por cada error ortográfico. Así mismo, si el archivo no es "renderizado" correctamente (ya que debe ser escrito usando la sintaxis del formato **Markdown**), se evaluará con cero puntos.
