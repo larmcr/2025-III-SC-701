@@ -1,9 +1,8 @@
-# Lección 11
+# Lección 11 y 12
 
 ## Node.js
 
 https://nodejs.org
-
 
 ## TypeScript
 
@@ -28,5 +27,11 @@ $ cd my-app
 
 $ npm start
 
+$ npx ng generate component home
+```
 
+### Vite
+
+```bash
+$ npm create vite@latest react-app
 ```
