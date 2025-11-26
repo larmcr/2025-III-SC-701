@@ -1,4 +1,4 @@
-# Lección 11 y 12
+# Lecciones 11 y 12
 
 ## Node.js
 
