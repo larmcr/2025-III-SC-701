@@ -77,7 +77,7 @@ Específicamente, para esta sección se deben efectuar dos acciones:
 
 El objetivo de esta parte es poder mostrar correctamente en la página web ambas implementaciones de la _Interface_ `IAirplanes` que se hallan en la carpeta `Services`. Estas implementaciones retornan la marca de cada avión y varios modelos de dichas marcas.
 
-Como se puede observar, en la página web se están mostrando (erróneamente) solo los datos de una de las implementaciones (`Airbus`). El objetivo es que se muestren ambas (`Aitbus` y `Boeing`).
+Como se puede observar, en la página web se están mostrando (erróneamente) solo los datos de una de las implementaciones (`Airbus`). El objetivo es que se muestren ambas (`Airbus` y `Boeing`).
 
 Para lograr lo anterior, se debe hacer uso de la técnica de **Dependency Injection** y modificar tanto los argumentos del _Action_ (`Index`) como las configuraciones de los _Services_ (en el `Program.cs`).
 
