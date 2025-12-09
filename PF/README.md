@@ -225,9 +225,9 @@ En el repositorio debe estar lo siguiente:
 
 El proyecto será calificado según la siguiente rúbrica:
 
-|                  Rubro | Puntos |
-| ---------------------: | :----: |
-|    **Funcionalidades** |   35   |
-| **Preguntas técnicas** |   5    |
-|      **Documentación** |   10   |
-|            **_Total_** | **50** |
+| Rubro                     | Puntos |
+| :------------------------ | :----: |
+| A. **Funcionalidades**    |   35   |
+| B. **Preguntas técnicas** |   5    |
+| C. **Documentación**      |   10   |
+| **_Total_**               | **50** |
