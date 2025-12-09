@@ -228,6 +228,6 @@ El proyecto será calificado según la siguiente rúbrica:
 |                  Rubro | Puntos |
 | ---------------------: | :----: |
 |    **Funcionalidades** |   35   |
-| **Evaluación técnica** |   5    |
+| **Preguntas técnicas** |   5    |
 |      **Documentación** |   10   |
 |            **_Total_** | **50** |
