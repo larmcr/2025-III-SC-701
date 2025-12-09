@@ -223,4 +223,11 @@ En el repositorio debe estar lo siguiente:
 
 ## Evaluación
 
-El proyecto será calificado según la rúbrica que se presenta en el programa del curso.
+El proyecto será calificado según la siguiente rúbrica:
+
+|                  Rubro | Puntos |
+| ---------------------: | :----: |
+|    **Funcionalidades** |   35   |
+| **Evaluación técnica** |   5    |
+|      **Documentación** |   10   |
+|          **_Totales_** | **50** |
